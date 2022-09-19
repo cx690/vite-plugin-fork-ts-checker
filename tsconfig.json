@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "es2020", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "lib": [
       "ESNext"
     ], /* Specify a set of bundled library declaration files that describe the target runtime environment. */
