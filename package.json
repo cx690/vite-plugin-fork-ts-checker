@@ -1,0 +1,50 @@
+{
+  "name": "vite-plugin-fork-ts-checker",
+  "version": "1.0.0",
+  "description": "A vite plugin for typescript check",
+  "exports": {
+    "import": "./esm/index.js"
+  },
+  "module": "./esm/index.js",
+  "types": "./esm/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "caixue <caixue233@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/babel__code-frame": "^7.0.3",
+    "@types/node": "^18.6.5",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  },
+  "dependencies": {
+    "@babel/code-frame": "^7.18.6",
+    "chalk": "^5.0.1"
+  },
+  "peerDependencies": {
+    "vite": "^3.0.0"
+  },
+  "keywords": [
+    "vite-plugin",
+    "vite",
+    "vite-plugin-ts-types",
+    "typescript"
+  ],  
+  "files": [
+    "esm",
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/cx690/vite-plugin-fork-ts-checker"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}
