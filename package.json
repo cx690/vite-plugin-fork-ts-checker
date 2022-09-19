@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-fork-ts-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vite plugin for typescript check",
   "exports": {
     "import": "./esm/index.js"
